@@ -1,4 +1,4 @@
-# Dropwizard + Gradle = &hearts; [![Build Status](https://secure.travis-ci.org/smarchive/dropwizard-gradle.png)](http://travis-ci.org/smarchive/dropwizard-gradle)
+# Dropwizard + Gradle
 
 Minimal example of getting Dropwizard going with Gradle (instead of Maven).
 
@@ -6,7 +6,7 @@ Minimal example of getting Dropwizard going with Gradle (instead of Maven).
 
 To create Eclipse project files:
 
-	./gradlew eclips
+	./gradlew eclipse
 	
 To create IntelliJ project files:
 
