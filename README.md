@@ -35,9 +35,11 @@ An alternative to creating a fat JAR is using the [Gradle Application Plugin](ht
 To create a distributable ZIP archive including all dependencies for your application just run `./gradlew distZip`. The
 resulting archive will be saved as `./build/distributions/dropwizard-gradle.zip`.
 
-You can also use the `./gradlew run` task to start the application.
+## Running and Testing Application
 
-## Test Running Application
+Start the application
+
+	./gradlew run
 
 Testing HelloWorld Resource
 
