@@ -12,6 +12,12 @@ To create IntelliJ project files:
 
 	./gradlew idea
  
+## Gradle Tasks
+
+To list the available tasks:
+
+	./gradlew tasks
+
 ## OneJar
 
 This example is using the [Gradle OneJar Plugin](https://github.com/rholder/gradle-one-jar) which will create
