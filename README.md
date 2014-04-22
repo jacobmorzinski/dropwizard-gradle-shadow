@@ -1,17 +1,7 @@
 # Dropwizard + Gradle
 
-Minimal example of getting Dropwizard going with Gradle (instead of Maven).
+Minimal example of getting [Dropwizard](https://dropwizard.github.io/dropwizard/) going with [Gradle](http://www.gradle.org/) (instead of Maven).
 
-## Eclipse, IntelliJ IDEA
-
-To create Eclipse project files:
-
-	./gradlew eclipse
-	
-To create IntelliJ project files:
-
-	./gradlew idea
- 
 ## Gradle Tasks
 
 To list the available tasks:
