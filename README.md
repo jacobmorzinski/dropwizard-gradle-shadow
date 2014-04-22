@@ -18,15 +18,14 @@ To list the available tasks:
 
 	./gradlew tasks
 
-## OneJar
+## Shadow
 
-This example is using the [Gradle OneJar Plugin](https://github.com/rholder/gradle-one-jar) which will create
-a JAR file of the project including all dependencies, similar to the [Maven Assembly Plugin](http://maven.apache.org/plugins/maven-assembly-plugin/)
-or the [Maven Shade Plugin](http://maven.apache.org/plugins/maven-shade-plugin/).
+This example is using the [Gradle Shadow Plugin](https://github.com/johnrengelman/shadow) which will create
+a JAR file of the project including all dependencies, similar to the [Maven Shade Plugin](http://maven.apache.org/plugins/maven-shade-plugin/).
 
-To create a JAR with all dependencies just run `./gradlew oneJar`. The resulting JAR will be saved as `./build/libs/dropwizard-gradle-standalone.jar`.
+To create a JAR with all dependencies just run `./gradlew shadowJar`. The resulting JAR will be saved in `./build/distributions/dropwizard-gradle-shadow-0.1-shadow.jar`.
 
-You can simply run the application with `java -jar build/libs/dropwizard-gradle-standalone.jar server src/dist/config/helloworld.yml`.
+You can simply run the application with `java -jar build/distributions/dropwizard-gradle-shadow-0.1-shadow.jar server src/dist/config/helloworld.yml`.
 
 ## Gradle Application Plugin
 
